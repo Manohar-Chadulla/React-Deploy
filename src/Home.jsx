@@ -41,7 +41,7 @@ function Home() {
 
         <div className="profile-circle">
           <img
-            src="/profile.png"
+            src="/profile1.jpg"
             alt="Graphic Designer"
           />
         </div>
