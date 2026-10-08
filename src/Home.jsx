@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import profile from "./assets/p2.png";
 
 function Home() {
   return (
@@ -40,11 +41,9 @@ function Home() {
       <div className="home-right">
 
         <div className="profile-circle">
-          <img
-            src="/profile1.jpg"
-            alt="Graphic Designer"
-          />
+          <img src={profile}  alt="Graphic Designer"/>
         </div>
+        
 
       </div>
 

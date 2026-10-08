@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 import BottomNavbar from "./BottomNavbar";
 
@@ -40,7 +40,8 @@ function App() {
       <div className="page-content">
 
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" index element ={<Home/>} />
+          <Route path="/" elementt={<Home/>} />
           <Route path="/skills" element={<Skills/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/search" element={<Search/>} />
